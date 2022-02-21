@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100&family=Roboto&family=Roboto+Mono&display=swap');
+
+:root {
+  background-color: rgb(29, 26, 26);
+  font-size: medium;
+}
+
+* {
+  color: var(--color);
+}
+
+body {
+  position: relative;
+}
+
+.header {
+  margin-top: 6px;
+  width: 800px;
+  max-width: 80%;
+  border-radius: 5px;
+  padding: 0px;
+  justify-content: center;
+  background-color: green;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'MuseoModerno', cursive;
+  margin: auto;
+  padding: auto;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  margin-top: 9px;
+  width: 800px;
+  max-width: 80%;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(204, 214, 191);
+  margin-bottom: 9px;
+  position:relative;
+}
+
+h1 {
+  font-size: 2.4rem;
+  color: white;
+
+  padding-left: 3rem;
+  padding: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: white;
+}
+
+p {
+  font-size: 25px;
+  align-content: start;
+}
+
+.container2 {
+  margin-top: 9px;
+  width: 800px;
+  max-width: 80%;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(204, 214, 191);
+  margin-bottom: 9px;
+  position:relative;
+}
+
+.container3 {
+  margin-top: 9px;
+  width: 800px;
+  max-width: 80%;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(204, 214, 191);
+  margin-bottom: 9px;
+}
+
+.container4 {
+  margin-top: 9px;
+  width: 800px;
+  max-width: 80%;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(204, 214, 191);
+  margin-bottom: 9px;
+}
+
+.header2 {
+  margin-top: 9px;
+  width: 800px;
+  max-width: 80%;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: green;
+}
+
+.footer-layout {
+  margin-top: 9px;
+  width: 800px;
+  max-width: 80%;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(204, 214, 191);
+  margin-bottom: 9px;
+}
+
+.display-toggle {
+  display: none;
+}
+
+
+.FORM {
+
+  margin-top: 9px;
+  width: 800px;
+  max-width: 80%;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(204, 214, 191);
+  margin-bottom: 9px;
+ 
+
+}
+
+.bookmark {
+  width:20px;
+  position:absolute;
+  right:20px;
+  top:-7px;
+}
+
+.bookmark-2 {
+
+  width:20px;
+  position:absolute;
+  right:20px;
+  top:-7px;
+}
+

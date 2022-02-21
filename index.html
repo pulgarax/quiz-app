@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="widt h=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="interactive.js" type="module" defer></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="inner_header">
+        <div class="nameapp">
+          <h1>KIWIZ</h1>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="container" data-js="select-card">
+        <a id="home_a"></a>
+
+        <div id="QUESTION-FRUITS">
+          <h3>What is the most widely consumed fruit in the world?</h3>
+          <img
+            class="bookmark"
+            data-js="bookmarkScript"
+            src="style/images/lesezeichen.svg"
+            alt="bookmark-not-available"
+          />
+        </div>
+        <button class="btn">Kiwi</button>
+        <button class="btn">Apple</button>
+        <button class="btn">Banana</button>
+        <button class="btn">Tomato</button>
+        <button class="show-answer" data-js="answer-button">Show Answer</button>
+        <div class="display-toggle" data-js="answer-answer">Tomato</div>
+      </div>
+
+      <div class="container2" data-js="select-card">
+        <a id="home_b"></a>
+
+        <div id="QUESTION-OLYMPICS">
+          <h3>Where were the world's first Olympics held?</h3>
+          <img
+            class="bookmark-2"
+            data-js="bookmarkScript"
+            src="style/images/lesezeichen.svg"
+            alt="bookmark-not-available"
+          />
+        </div>
+        <div id="2answer-button" class="2btn-grid">
+          <button class="btn">Berlin - Germany</button>
+          <button class="btn">Sarajevo - Yugoslavia</button>
+          <button class="btn">Athens - Greece</button>
+          <button class="btn">Roma - Italy</button>
+          <button class="show-answer" data-js="answer-button">
+            Go to Answer
+          </button>
+          <div class="display-toggle" data-js="answer-answer">
+            Athens-Greece
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="container3" data-js="select-card">
+          <a id="home_c"></a>
+
+          <div id="QUESTION-BOLIVIA">
+            <h3>What is the capital of Bolivia?</h3>
+          </div>
+          <img
+            class="bookmark"
+            data-js="bookmarkScript"
+            src="style/images/lesezeichen.svg"
+            alt="bookmark-not-available"
+          />
+          <div id="answer-button" class="btn-grid">
+            <button class="btn">La Paz</button>
+            <button class="btn">Sucre</button>
+            <button class="btn">Caracas</button>
+            <button class="btn">Asunción</button>
+            <button class="show-answer" data-js="answer-button">
+              Go to Answer
+            </button>
+            <div class="display-toggle" data-js="answer-answer">Sucre</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="container4" data-js="select-card">
+          <a id="home_d"></a>
+
+          <div id="QUESTION-SUPERNOVA"><h3>What is a supernova?</h3></div>
+          <div id="answer-button-supernova" class="btn-grid">
+            <button class="btn">Formation of a meteorite</button>
+            <button class="btn">A star explosion</button>
+            <button class="btn">An extrasolar planet</button>
+            <button class="btn">A nebula's name</button>
+            <button class="show-answer" data-js="answer-button">Answer</button>
+            <div class="display-toggle" data-js="answer-answer">
+              A star Explosion
+            </div>
+          </div>
+
+          <div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="FORM">
+      <h2 id="form-heading">Kiwi-question</h2>
+
+      <form aria-labelledby="form-heading" aria-describedby="form-description">
+        <legend>Do you have a question?</legend>
+
+        <textarea
+          type="text"
+          name="question"
+          id="question"
+          placeholder="Ask away..."
+          rows="5"
+          cols="40"
+          maxlength="60"
+          data-js="textAreaCount"
+        ></textarea>
+
+        <div><input type="submit" value="Subscribe" /></div>
+      </form>
+    </div>
+    <nav class="footer-layout">
+      <ul class="navigation-ul navigation-style"></ul>
+      <li class="navigation-li"><a href="/index.html">Home</a></li>
+      <li class="navigation-li"><a href="/bookmarks.html">Bookmark</a></li>
+      <li class="navigation-li"><a href="/create.html">Create</a></li>
+      <li class="navigation-li"><a href="/profile.html">Profile</a></li>
+    </nav>
+  </body>
+</html>
